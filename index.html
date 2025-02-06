@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinkie Pie Paradise Island</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Welcome to Pinkie Pie Paradise Island</h1>
+            <p>A place where your girls trip may finally make it out of the group chat.</p>
+            <img src="./paradise.jpg" alt="Paradise Island">
+        </section>
+        <section id="packages">
+            <h2>Travel Packages</h2>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Package Name</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A Girl's Girl Self Care</td>
+                        <td>3 Days</td>
+                        <td>$650</td>
+                    </tr>
+                    <tr>
+                        <td>Beach Vibes All Day</td>
+                        <td>5 Days</td>
+                        <td>$800</td>
+                    </tr>
+                    <tr>
+                        <td>Underwater Mermaid Tale</td>
+                        <td>2 Days</td>
+                        <td>$850</td>
+                    </tr>
+                    <tr>
+                        <td>Peace of Mind Please</td>
+                        <td>7 Days</td>
+                        <td>$1200</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="package">Choose a package:</label>
+                <select id="package" name="package">
+                    <option value="beach">A Girl's Girl Self Care</option>
+                    <option value="adventure">Beach Vibes All Day</option>
+                    <option value="adventure">Underwater Mermaid Tale</option>
+                    <option value="adventure">Peace of Mind Please</option>
+                </select>
+                
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>&copy; 2025 Paradise Island Tours</h3>
+    </footer>
+</body>
+</html>
